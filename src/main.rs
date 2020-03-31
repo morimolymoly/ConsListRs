@@ -11,6 +11,6 @@ fn main() {
         Box::new(Cons(2,
             Box::new(Cons(3,
                 Box::new(Nil))))));
-    println!("{:?}", list)
+    println!("{:?}", list);
 }
 
